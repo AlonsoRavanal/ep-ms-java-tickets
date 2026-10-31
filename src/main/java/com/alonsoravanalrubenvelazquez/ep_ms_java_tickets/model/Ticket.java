@@ -71,6 +71,10 @@ public class Ticket {
         if (estado == null) estado = EstadoTicket.EMITIDO;
     }
 
+    public Long getId() {
+        return id;
+    }
+
     public void marcarUtilizado() {
         this.estado = EstadoTicket.UTILIZADO;
         this.fechaUso = LocalDateTime.now();
