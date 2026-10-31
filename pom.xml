@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.alonsoravanalrubenvelazquez</groupId>
-	<artifactId>ep-ms-java-tickets</artifactId>
+	<artifactId>ep-ms-java-eventos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ep-ms-java-tickets</name>
+	<name>ep-ms-java-eventos</name>
 	<description/>
 	<url/>
 	<licenses>
@@ -30,10 +30,6 @@
 		<java.version>21</java.version>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-validation</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-h2console</artifactId>
